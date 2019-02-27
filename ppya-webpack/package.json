@@ -1,0 +1,28 @@
+{
+  "name": "ppya-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ppya",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.3.4",
+    "@babel/traverse": "^7.3.4",
+    "@babel/types": "^7.3.4",
+    "babylon": "^6.18.0",
+    "ejs": "^2.6.1",
+    "less": "^3.9.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "dev": "webpack"
+  },
+  "bin": {
+    "ppya-webpack": "./ppya-webpack/index.js"
+  },
+  "devDependencies": {
+    "tapable": "^1.1.1"
+  },
+  "keywords": [],
+  "description": ""
+}
